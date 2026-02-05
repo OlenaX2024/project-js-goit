@@ -37,11 +37,18 @@
 .header-menu { 
   display: flex;
   flex-direction: column;
+  gap: 487px;
+
 }
 
 .is-open {}
 
-.menu-containar {}
+.menu-containar {
+  width: 67px;
+  height: 39px;
+
+
+}
 
 .header-link {}
 
@@ -51,4 +58,15 @@
 
 .nav-link {}
 
-.button-link {}
+.button-link {
+  border-radius: 60px;
+    padding-block: 18px;
+    padding-inline: 24px;
+    max-width: 163px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}

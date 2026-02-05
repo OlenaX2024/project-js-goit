@@ -1,31 +1,54 @@
-.hero {
-  max-width: 1410px;
+
+
+.header {
+  max-width: 1376px;  
+  max-height: 80px;
 }
 
-.hero-container {
-  background-image: url("/src/img/hero/hero-desktop.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.header-container {
+  display: flex; 
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 487px;
 }
 
-.hero-picture {}
-
-.hero-title {
-  font-weight: 500;
-  font-size: 90px;
-  line-height: 1;
-  letter-spacing: -0.03em;
-  text-transform: uppercase;
-  color: #FFFFFF;
+.header-navigation {
+  width: 172px;
+  height: 80px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 8px;
 }
 
-.hero-navigaton {}
+.nav-logo { 
+  display: flex;
+  flex-direction: row;
+}
 
-.hero-list {}
+.header-logo {
+  border-radius: 18px;
+}
 
-.hero-item {}
+.header-text {}
 
-.hero-link {}
+.header-menu { 
+  display: flex;
+  flex-direction: column;
+}
 
-.hero-button {}
+.is-open {}
+
+.menu-containar {}
+
+.header-link {}
+
+.visually-hidden {}
+
+.nav-item {}
+
+.nav-link {}
+
+.button-link {}

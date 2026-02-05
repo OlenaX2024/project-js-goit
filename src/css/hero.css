@@ -1,0 +1,34 @@
+.hero {
+    max-width: 1410px;
+
+}
+
+.hero-container {
+    background-image: url("/src/img/hero/hero-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.hero-picture {}
+
+.hero-title {
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+.hero-navigaton {}
+
+.hero-list {}
+
+.hero-item {}
+
+.hero-link {}
+
+.hero-button {}

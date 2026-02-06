@@ -3,6 +3,8 @@
 .header {
   max-width: 1376px;  
   max-height: 80px;
+  margin: 32px, 32px, 788px;
+  position: relative;
 }
 
 .header-container {
@@ -46,19 +48,14 @@
 .menu-containar {
   width: 67px;
   height: 39px;
-
-
 }
 
-.header-link {}
-
-.visually-hidden {}
-
-.nav-item {}
-
-.nav-link {}
 
 .button-link {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: var(--main-text);
   border-radius: 60px;
     padding-block: 18px;
     padding-inline: 24px;
